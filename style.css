@@ -47,7 +47,8 @@ ul {
   padding: 0px;
 }
 
-h1 {
+h1,
+h3 {
   display: none;
 }
 li,
