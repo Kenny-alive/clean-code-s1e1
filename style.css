@@ -18,9 +18,9 @@
 }
 
 @media (max-width:768px) {
-.info-section { 
-text-align: center;
-}
+  .info-section {
+    text-align: center;
+  }
 }
 .main-content {
   display: block;
