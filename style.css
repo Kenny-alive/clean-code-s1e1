@@ -1,32 +1,32 @@
 /* Basic Style */
-.page {
+.page__todo-app {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
 }
 
-.info-section {
+.info_section__wrapper {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.info-section img {
+.info_section__wrapper img {
   width: 100%;
 }
 
-.info-section .more-info {
+.more_info__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .info-section {
+  .info_section__wrapper {
     text-align: center;
   }
 }
 
-.main-content {
+.main_content__wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -38,7 +38,7 @@
   flex-grow: 1;
 }
 
-.task-wrapper {
+.task_form__input-wrapper {
   display: flex;
 }
 
@@ -143,13 +143,13 @@ li > input[type="text"] {
   width: 226px;
 }
 
-.del-btn img {
+.btn__delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.del-btn img:hover {
+.btn__delete img:hover {
   transform: rotateZ(0);
 }
 
